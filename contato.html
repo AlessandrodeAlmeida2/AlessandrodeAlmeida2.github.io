@@ -8,50 +8,6 @@
     <!-- Title: add your Portfolio websites's title here -->
     <title>Alessandro de Almeida | Developer</title>
 
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="meuPortifolio" content="AlessandrodeAlmeida, Alessandro, skill" />
-
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Alessandro de Almeida | Developer" />
-
-    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
-
-    <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#36d1dc" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="https://www.linkedin.com/in/valter-alessandro-de-alameida-d-alvia-agostini-b140a51a7/" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://devfolio.js.org/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Alessandro de Almeida | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://devfolio.js.org/assets/devfolio.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="Alessandro de Almeida | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Made using DevFolio Template"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
-    />
-
     <!-- link tags -->
     <link rel="stylesheet" href="./css/main.css" />
     <link
@@ -81,21 +37,81 @@
       gtag("config", "UA-122228201-4");
     </script>
     <!-- End of Google Analytics -->
+
+    <style type="text/css">
+      @media (max-width: 575.98px) {
+        .container img {
+            width: 280px;          
+          }
+          #zap img {
+            width: 25px;
+          }
+          .container h3 {
+            font-size: 2em;
+          }      
+        }
+
+        /* Small devices (landscape phones, 576px and up)*/
+        @media (min-width: 576px) and (max-width: 767.98px) {
+          .container img {
+            width: 370px;          
+          }
+          #zap img {
+            width: 30px;
+          }
+          .container h3 {
+            font-size: 3em;
+          }          
+        }
+
+        /* Medium devices (tablets, 768px and up)*/
+        @media (min-width: 768px) and (max-width: 991.98px) {
+         #zap img {
+            width: 35px;
+          }
+          .container h3 {
+            font-size: 4em;
+          }            
+        }
+
+        /* Large devices (desktops, 992px and up)*/
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          #zap img {
+            width: 50px;
+          }
+          .container h3 {
+            font-size: 5em;
+          }      
+        }
+
+        /* Extra large devices (large desktops, 1200px and up)*/
+        @media (min-width: 1200px) {
+          #zap img {
+            width: 50px;
+          }
+          .container h3 {
+            font-size: 6em;
+          }           
+        }
+    </style>
+
   </head>
   <body>
     <!-- Hero Section -->
     <div id="hero">
       <section class="container">
         
-        <img src="img/contato.png">
-        <h3 class="hero-title">
+        <img src="img/contato.png" style="margin-bottom: 60px;">
+        <h3>
           E-m@il: agostini55@gmail.com
         
           <br>
           <br>
-        
-          Cel: +55 (19) 99300-0487
-          <img src="img/zap.jpg"  style="width: 60px;">
+
+          <div id="zap">
+            Cel: +55 (19) 993000487
+            <img src="img/zap.jpg">
+          </div>
         
         </h3>
         
