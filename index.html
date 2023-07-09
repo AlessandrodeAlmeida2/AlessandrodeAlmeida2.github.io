@@ -330,7 +330,8 @@ Have fun creating your portfolio on this template!!! -->
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Wase project</h3>
               <p class="project-wrapper__text-info">
-                The New York City Taxi and Limousine Commission seeks a way to utilize the data collected from the New York City area to predict the fare amount for taxi cab rides. I used two different modeling architectures and compared their results. Unfortunately, neither approach delivered strong predictions.
+                To obtain a model with the highest predictive power, I developed two different models to cross-compare results: random forest and XGBoost. 
+To prepare for this work, the data was split into training, validation, and test sets. Splitting the data three ways means that there is less data available to train the model than splitting just two ways. However, performing model selection on a separate validation set enables testing of the champion model by itself on the test set, which gives a better estimate of future performance than splitting the data two ways and selecting a champion model by performance on the test data.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
